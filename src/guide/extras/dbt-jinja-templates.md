@@ -85,7 +85,7 @@ FROM {{ ref('orders') }}
 
 **1. SQL 文件不再是纯 SQL**
 
-IDE 的 SQL 语法高亮、格式化、lint 工具往往无法正确处理 Jinja 语法。开发者需要额外的工具链支持（如 [dbt Power User](https://marketplace.visualstudio.com/items?itemName=innoverio.vscode-dbt-power-user) VS Code 插件）。
+IDE 的 SQL 语法高亮、格式化、lint 工具往往无法正确处理 Jinja 语法。开发者需要额外的工具链支持（如 VS Code 的 [dbt Power User](https://marketplace.visualstudio.com/search?term=dbt+power+user&target=VSCode) 插件，具体扩展请以 Marketplace 最新版本为准）。
 
 **2. 调试难度增加**
 
